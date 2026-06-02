@@ -49,13 +49,13 @@ wad-assignment-2/
 Since this is a static web assignment, no build step is required.
 
 ### Option 1: Open directly
-1. Open `/tmp/workspace/saqi-saqi/wad-assignment-2/index.html` in a web browser.
+1. Open `index.html` in a web browser.
 2. Navigate through pages using the top menu.
 
 ### Option 2: Run a local static server (recommended)
 From the repository root:
 ```bash
-cd /tmp/workspace/saqi-saqi/wad-assignment-2
+cd <project-root>
 python -m http.server 8000
 ```
 Then open: `http://localhost:8000/index.html`
